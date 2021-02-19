@@ -24,9 +24,12 @@ app.post('/api/notes', function(req, res){
     fs.writeFileSync( saveFile, JSON.stringify(noteList) )
     res.send( { message: `Reserved for *${newNote.name}*` } )
 })
-
+app.get("/api/notes/:id", function(req,res) {
+    res.send(noteList[req.params.id]);
+});
 app.delete('/api/notes/:id', function(req, res){
     noteList.splice(req.params.id, 1)
+    console.log(req.params.id)
     //fs.writeFileSync( saveFile, JSON.stringify(noteList) )
     res.send( { message: `Delete `} )
 })
