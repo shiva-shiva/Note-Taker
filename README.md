@@ -10,6 +10,7 @@
 ## Description 
 
 This simple note taking application allows you to save notes with a title and plain text. Powered by ExpressJS, the Note Taker app makes creating, viewing, and deleting notes a cinch!
+Click <h3>[here](./Develop/dist/team.png)</h3> for deployed application.
 
 ## ✨Demo
 
@@ -41,7 +42,7 @@ This simple note taking application allows you to save notes with a title and pl
     JavaScript library 
     Express - Node Framework 
     Heroku - Used to deploy application
-    
+
 ## 📝License
 MIT License<br/>
        ![Badge for GitHub licence](https://img.shields.io/github/license/shiva-shiva/readmeGenerator?style=flat&logo=appveyor)
