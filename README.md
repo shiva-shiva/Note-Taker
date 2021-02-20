@@ -13,7 +13,7 @@ This simple note taking application allows you to save notes with a title and pl
 
 ## ✨Demo
 
-![Demo](./Develop/dist/team.png)
+![Demo](https://drive.google.com/file/d/1WUW68v4HyjtFhRsZc3WVXAfWF8921kLG/view)
 
  ## Table of Contents
 * [Description](#Description)
